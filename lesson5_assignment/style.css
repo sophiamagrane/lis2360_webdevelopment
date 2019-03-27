@@ -1,57 +1,71 @@
 @charset "UTF-8";
 
 body {
-	font-family: Geneva, Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-family: Georgia, serif, sans-serif;
+	font-size: 15px;
 	line-height: 1.6em;
 	color: #FFFFFF;
-	background-color: #576C7B;
+	background-color: #11477F;
 	padding: 0 40px;
 }
 
 /* text syles */
 p, li, td {
-	letter-spacing: 0.1em;
-	color: #CCCCCC;
+	letter-spacing: 0.08em;
+	color: #FFFFFF;
 }
+
 h1 {
-	font-size: 24px;
+	font-size: 40px;
 	padding: 4px 0;
 	font-variant: small-caps;
-	letter-spacing: .5em;
+	letter-spacing: .2em;
 	line-height: 2em;
 }
 h2 {
-	font-size: 20px;
+	font-size: 35px;
 	padding: 6px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color:#C9FAFF;
+	/*background-color:#2977AB;*/
 }
 h3 {
-	font-size: 17px;
-	letter-spacing: 0.5em;
+	font-size: 30px;
+	letter-spacing: 0.7em;
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
-	border-bottom-color: #9B9744;
+	border-bottom-color: #C9FAFF;
 	padding: 4px 0;
 	font-variant: small-caps;
 	font-style: italic;
 }
 
+/* added line height to not have clustered text */
+em{
+	font-size: 30px;
+	letter-spacing: 0.2em;
+	line-height: 1.5em;
+}
+
+/* used for quote  */
+strong{
+	font-size: 20px;
+	letter-spacing: 0.05em;
+}
+
 /* link styles ---------------------------- */
 a:link {
 	font-weight: bold;
-	color: #9B9744;
+	color: #C9FAFF;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #9B9744;
+	color: #D146B4;
 	text-decoration: none;
 }
 a:hover {
-	color: #FFFF00;
+	color: #09ddf7;
 }
 
 /* list styles ----------------------------- */
@@ -71,11 +85,14 @@ td {
 	padding: 6px;
 	border: solid #C9FAFF 1px;
 }
+/* changed background color to allow white text to show */
 th {
 	font-weight: bold;
-	background-color: #999938;
+	background-color: #C9FAFF;
 	text-align: center;
 	padding: 6px;
+	color: #11477F;
+	
 	border: solid #C9FAFF 1px;
 }
 
@@ -86,7 +103,6 @@ hr {
 
 img {
 	border: solid #C9FAFF 1px;
-
 }
 
 iframe {
