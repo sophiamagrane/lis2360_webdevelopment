@@ -12,7 +12,8 @@ body {
 /* text syles */
 p, li, td {
 	letter-spacing: 0.08em;
-	color: #FFFFFF;
+	color: #11477F;
+	margin-left:15px;
 }
 
 h1 {
@@ -61,7 +62,7 @@ a:link {
 }
 a:visited {
 	font-weight: bold;
-	color: #D146B4;
+	color: #109BD5;
 	text-decoration: none;
 }
 a:hover {
@@ -110,3 +111,75 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+
+
+/* all div containers */
+#container{
+	width: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background-color: #FFFF;
+	overflow:hidden;
+}
+
+#header{
+	width: 100%;
+	color: #11477F;
+	background-color: #FFFF;
+	border-bottom: 1px solid #C9FAFF;
+	padding-bottom: 0px;
+	
+}
+#content{
+	color: #11477F;
+	background-color: #FFFF;
+	width: 600px;
+	float: left;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#content2{
+	color: #11477F;
+	background-color: #FFF;
+	width: 460px;
+	float: left;
+	padding-bottom: 0px;
+	margin-left: 50px;
+}
+#content3{
+	color: #11477F;
+	background-color: #FFFF;
+	margin-top:20px;
+	width: 800px;
+	float: left;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+#sidebar{
+	color: #11477F;
+	border: 5px solid #C9FAFF;
+	border-radius: 12px;
+	background-color: #ecefff;
+	width: 400px;
+	box-shadow:10px 10px 5px;
+	float: left;
+	padding-bottom: 0px;
+	margin-left: 10%;
+}
+#sidebar2{
+	width: 50%;
+	float:right;
+	margin-right:80px;
+	padding-bottom: 20px;
+	margin-bottom:20px;
+	margin-top: 40px;
+}
+#footer{
+	width: 100%;
+	background-color: #252831;
+	border-top: 1px solid #C9FAFF;
+	padding:5px;
+	clear: both;
+}
+
