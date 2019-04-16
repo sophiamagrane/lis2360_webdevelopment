@@ -115,7 +115,6 @@ iframe {
 
 /* all div containers */
 #container{
-	width: 100%;
 	width: 1200px;
 	margin: 0 auto;
 	border: 1px solid #000;
